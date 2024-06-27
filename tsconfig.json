@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "app.ts",
+        "src/db/migrations/users.ts",
+        "src/db/config/config.ts",
+    ],
+    "paths": {
+        "@/*": [
+            "./src/*"
+        ],
+    },
+    "exclude": [
+        "node_modules",
+        "dist",
+    ]
+}
