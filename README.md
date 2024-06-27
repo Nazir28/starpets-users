@@ -73,7 +73,7 @@ curl --request POST \
 
 ### Тест 1
 
-Команда для запуска ([Исходники]()):
+Команда для запуска ([Исходники](https://github.com/Nazir28/starpets-users/blob/main/src/example-test/1.js)):
 
 ```shell
 node src/example-test/1.js
@@ -81,7 +81,7 @@ node src/example-test/1.js
 
 ### Тест 2
 
-Команда для запуска ([Исходники]()):
+Команда для запуска ([Исходники](https://github.com/Nazir28/starpets-users/blob/main/src/example-test/2.js)):
 
 ```shell
 node src/example-test/2.js
